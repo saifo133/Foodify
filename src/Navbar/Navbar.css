@@ -1,0 +1,36 @@
+nav{
+    background: #06923E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    margin-left: 10px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar-links{
+    display: flex;
+    list-style: none;
+    margin-right: 50px ;
+}
+
+.navbar-links li{
+    padding: 0 10px;
+}
+nav li .navbar-item{
+    text-decoration: none;
+    color: white;
+}
+
+ul li .navbar-item:hover{
+    transition: ease 0.2s;
+    color: orange;
+}

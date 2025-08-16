@@ -1,0 +1,93 @@
+.footer-container {
+    background-color: #06923E;
+    display: flex;
+    flex-wrap: wrap;           /* يسمح للعناصر بالانتقال لسطر جديد */
+    justify-content: space-between;
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+.footer-container .logo,
+.footer-container .nav-sections,
+.footer-container .our-vision {
+    flex: 1 1 300px;           /* كل عمود قابل للتوسع والانكماش، وعرض أساسي 300px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-container .logo {
+    justify-content: center;
+}
+
+.footer-container .nav-sections {
+    justify-content: center;
+}
+
+.footer-container .nav-sections p {
+    color: #FFF;
+}
+
+.footer-container .navbar-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container li .navbar-item {
+    text-decoration: none;
+    color: white;
+    margin: 5px 0;
+}
+
+.footer-container ul li .navbar-item:hover {
+    transition: ease 0.2s;
+    color: orange;
+}
+
+.footer-container .our-vision .title {
+    color: #FFF;
+    font-family: "Arimo Hebrew Subset Italic";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.footer-container .our-vision .our-vision-desrciption {
+    width: 100%; /* بدل 400px لتناسب الشاشات الصغيرة */
+    color: #FFF;
+    font-family: "Arimo Hebrew Subset Italic";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Media Query للشاشات الصغيرة */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .footer-container .logo,
+    .footer-container .nav-sections,
+    .footer-container .our-vision {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-container .our-vision .title {
+        font-size: 20px;
+    }
+
+    .footer-container .our-vision .our-vision-desrciption {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

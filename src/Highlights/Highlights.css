@@ -1,0 +1,99 @@
+.Highlights-container{
+    margin: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;       /* يسمح للعناصر بالانتقال لسطر جديد */
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.Features{
+    flex: 1 1 300px;      /* يسمح للعنصر بالتقلص والتوسع حسب المساحة */
+    max-width: 350px;     /* يحافظ على الحد الأقصى كما في التصميم الحالي */
+    height: 200px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.Features img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    padding: 15px;
+    transition: all 0.2s ease;
+}
+
+.Features p{
+    color: #000;
+    font-family: "Arimo Hebrew Subset Italic";
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 35px;
+    transition: color 0.2s ease;
+}
+
+.Features:hover{
+    transform: translateY(-15px);
+    box-shadow: 1px 1px 10px 1px #06923E;
+    background-color: #06923E;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.Features:hover img {
+    background-color: #FFF;
+    width: 30px;
+    height: 30px;
+}
+
+.Features:hover p{
+    color: #FFF;
+}
+
+/* Media Queries للشاشات الصغيرة */
+@media (max-width: 768px) {
+    .Highlights-container {
+        justify-content: center; /* يبقى في الوسط */
+        gap: 15px;
+    }
+
+    .Features {
+        flex: 1 1 80%;  /* كل عنصر ياخذ تقريباً 80% من عرض الشاشة */
+        max-width: none; /* إزالة الحد الأقصى لتناسب الشاشات الصغيرة */
+        height: auto;    /* ارتفاع تلقائي لتناسب النصوص */
+    }
+
+    .Features img {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+
+    .Features p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Features {
+        flex: 1 1 100%;  /* كل عنصر ياخذ كامل عرض الشاشة */
+    }
+
+    .Features img {
+        width: 35px;
+        height: 35px;
+        padding: 8px;
+    }
+
+    .Features p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

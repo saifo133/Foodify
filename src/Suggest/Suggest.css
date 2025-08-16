@@ -1,0 +1,137 @@
+.Suggest-container {
+    margin-top: 91px;
+    padding-top: 30px;
+    min-height: 681px; /* بدل height ثابت لتفادي مشاكل الارتفاع */
+    background-color: #06923E;
+    color: #FFF;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Suggest-container h1 {
+    font-family: Poppins;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.Suggest-container p {
+    font-family: "Arimo Hebrew Subset Italic";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.suggest-recipes {
+    display: flex;
+    flex-wrap: wrap;             /* السماح للعناصر بالانتقال لسطر جديد */
+    justify-content: center;     /* العناصر مركزة أفقياً */
+    gap: 20px;                   /* المسافة بين العناصر */
+    align-items: flex-start;     /* يبدأ كل عنصر من الأعلى */
+}
+
+.recipes {
+    width: 352px;
+    max-width: 90%;             /* يسمح بالتصغير على الشاشات الصغيرة */
+    height: auto;               /* ارتفاع تلقائي لتناسب المحتوى */
+    text-align: center;
+    padding-top: 20px;
+}
+
+.recipes .recipe-image {
+    width: 137px;
+    height: 137px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.recipes .recipe-title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.recipes .recipte-description {
+    width: 100%;               /* بدل 346px لتناسب الشاشات الصغيرة */
+    color: #FFF;
+    font-family: "Arimo Hebrew Subset Italic";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.recipes button {
+    width: 140px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.recipes button:hover {
+    background-color: #06923E;
+    color: #FFF;
+    transition: ease 0.2s;
+}
+
+.finish-suggest-text {
+    padding-top: 10px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+/* Media Queries للشاشات الصغيرة */
+@media (max-width: 992px) {
+    .recipes {
+        width: 45%;              /* تقريباً نصف عرض الصفحة */
+    }
+}
+
+@media (max-width: 768px) {
+    .recipes {
+        width: 80%;              /* عناصر أكبر لتناسب الشاشات الصغيرة */
+    }
+
+    .recipes .recipte-description {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .recipes {
+        width: 100%;             /* كل عنصر ياخذ كامل عرض الشاشة */
+    }
+
+    .Suggest-container h1 {
+        font-size: 28px;
+    }
+
+    .Suggest-container p {
+        font-size: 18px;
+    }
+
+    .recipes .recipe-title {
+        font-size: 14px;
+    }
+
+    .recipes button {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
