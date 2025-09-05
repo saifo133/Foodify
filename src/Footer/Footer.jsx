@@ -17,7 +17,10 @@ export default function Footer(){
                     <Link to='/recipes' className='navbar-item'>Recipes</Link>
                 </li>
                 <li>
-                    <Link to='/favorites' className='navbar-item'>Favorites</Link>
+                    <Link to='/favorite' className='navbar-item'>Favorites</Link>
+                </li>
+                <li>
+                    <Link to='/my-recipes' className='navbar-item'>My Recipes</Link>
                 </li>
                 <li>
                     <Link to='/about' className='navbar-item'>About</Link>

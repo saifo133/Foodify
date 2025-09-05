@@ -1,0 +1,226 @@
+/* CreateRecipes.css */
+.create-recipes-page {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding: 0;
+  direction: ltr;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create-recipes-container {
+  max-width: 100%;
+  margin: 0 auto;
+  background: white;
+  overflow: hidden;
+}
+
+.create-recipes-header {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.create-recipes-header h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.create-recipes-header p {
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.9;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.create-recipes-content {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.create-recipes-content h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.create-recipes-content .subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+  font-style: italic;
+  font-size: 16px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.create-recipes-content .subtitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+}
+
+.recipe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #2E7D32;
+  font-size: 18px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s;
+  background-color: #f9f9f9;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+  background-color: #fff;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.image-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 2px dashed #4CAF50;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f1f8e9;
+  text-align: center;
+}
+
+.image-upload input[type="file"] {
+  padding: 10px;
+  background: #e8f5e9;
+  border-radius: 6px;
+  border: 1px solid #c8e6c9;
+  cursor: pointer;
+}
+
+.image-preview {
+  width: 100%;
+  max-width: 300px;
+  margin: 15px auto;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 6px;
+}
+
+.create-button {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  border: none;
+  padding: 18px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(46, 125, 50, 0.3);
+  width: 100%;
+}
+
+.create-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(46, 125, 50, 0.4);
+  background: linear-gradient(135deg, #43A047, #1B5E20);
+}
+
+.create-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(46, 125, 50, 0.3);
+}
+
+/* Additional styling */
+.form-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #4CAF50, transparent);
+  margin: 10px 0 20px;
+}
+
+.required-field::after {
+  content: " *";
+  color: #F44336;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .create-recipes-page {
+    padding: 0;
+  }
+  
+  .create-recipes-header {
+    padding: 30px 15px;
+  }
+  
+  .create-recipes-header h1 {
+    font-size: 26px;
+  }
+  
+  .create-recipes-header p {
+    font-size: 16px;
+  }
+  
+  .create-recipes-content {
+    padding: 30px 15px;
+  }
+  
+  .create-recipes-content h2 {
+    font-size: 24px;
+  }
+  
+  .create-button {
+    padding: 15px 25px;
+    font-size: 18px;
+  }
+
+  option{
+    font-size: 10px;
+    font-weight: normal;
+  }
+}

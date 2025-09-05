@@ -3,6 +3,7 @@ import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import userOne from './User_One.jpeg';
 import userTwo from './User_Two.jpeg';
 import userThree from './User_Three.jpeg';
+import CustomerSayBackground from './CustomerSayBackground.jpg';
 
 export default function CustomerSay() {
 
@@ -40,7 +41,7 @@ export default function CustomerSay() {
   ];
 
   return (
-    <div className="customer-say">
+    <div className="customer-say" style={{backgroundImage: `url(${CustomerSayBackground})`}}>
 
       <div className='customer-say-title'>
         <h1>You Can Know About Us From Our Customer</h1>

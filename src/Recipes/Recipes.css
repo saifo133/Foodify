@@ -1,0 +1,250 @@
+.Recipes-container{
+    display: flex;
+    justify-content: space-around;
+    height: 534px;
+    margin: 31px 0;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.Recipes-Page-Introduction{
+    width: 665px;
+    height: 260px;
+    padding: 10px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  width: 400px;   
+  height: 400px;
+  overflow: hidden;
+}
+
+.img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img1 { 
+    border-radius: 100px 0;
+}
+
+.img2 {
+  border-radius: 0 100px;
+}
+
+.img3 {
+    border-radius:0 100px;
+}
+
+.img4 {
+    border-radius: 100px 0;
+}
+
+.Recipes-Page-Introduction h1{
+    width: 665px;
+    height: 86px;
+    font-family: Poppins,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.Recipes-Page-Introduction span{
+    color: #06923E;
+    font-family: Poppins , sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+.Recipes-Page-Introduction p{
+    width: 605px;
+    font-family: Poppins , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.Bubbles-Search-Create{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 101px;
+}
+
+.Bubbles-search{
+    display:flex;
+    flex-direction: column;
+}
+
+.Bubbles{
+    height: 93px;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.bubble {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #06923E;
+  display: flex;              
+  align-items: center;        
+  justify-content: center;    
+  margin: 0 5px;    
+  cursor: pointer;          
+}
+
+.bubble img {
+  width: 70%;   
+  height: 70%;  
+  object-fit: contain; 
+}
+
+.search input{
+    width: 632px;
+    height: 49px;
+    margin-left: 8px;
+    background: #FFF;
+    border: 1px solid #000;
+}
+
+.Recipes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 407px;
+    height: 479px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 10px 0;
+    position: relative;
+}
+
+.card .card-image{
+    width: 346px;
+    height: 257px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.card-title h1{
+    text-align: center;
+    color: #06923E;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: 25px;
+}
+
+.card-title h2{
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 5px;
+    margin-right: 25px;
+    background-color: #06923E;
+}
+
+.card p{
+    width: 362px;
+    color: #000;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0 25px;
+}
+
+.ShowMore-Favorite{
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.ShowMore-Favorite .btn{
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.ShowMore-Favorite img{
+    width: 35px;
+    height: 35px;
+}
+
+
+@media (max-width: 768px) {
+
+    .Recipes-container{
+        height: 385px;
+    }
+
+    .Recipes-Page-Introduction h1{
+        font-size: 19px;
+        width: 375px;
+        margin-bottom: 44px;
+    }
+
+    .Recipes-Page-Introduction p{
+        width: 300px;
+    }
+
+    .image-grid{
+        display: none;
+    }
+
+    .Bubbles{
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+        width: 380px;
+    }
+
+    .bubble{
+        margin-bottom: 5px;
+    }
+
+    .search input{
+        width: 390px;
+    }
+
+    .ShowMore-Favorite{
+        width: 85%;
+    }
+}
+
+/* للشاشات جدًا الصغيرة */
+@media (max-width: 480px) {
+
+}
+

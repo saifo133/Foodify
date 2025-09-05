@@ -64,9 +64,6 @@
     font-weight: lighter;
 }
 
-
-/* ==================== Media Queries لتقليل وإزالة المساحات الفارغة ==================== */
-
 /* للشاشات المتوسطة */
 @media (max-width: 992px) {
     .Introduction {
@@ -107,6 +104,7 @@
     .Introduction-btn {
         width: 100%;
         justify-content: flex-start;
+        margin-top: 15px;
     }
     .Introduction-btn button {
         width: 120px;

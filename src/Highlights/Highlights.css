@@ -1,99 +1,190 @@
-.Highlights-container{
-    margin: 150px 0;
+/* Highlights.css - Improved Version */
+.Highlights-container {
+    margin: 120px 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;       /* يسمح للعناصر بالانتقال لسطر جديد */
-    gap: 20px;
-    padding: 10px 0;
+    align-items: stretch; /* لجعل جميع العناصر بنفس الارتفاع */
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
 }
 
-.Features{
-    flex: 1 1 300px;      /* يسمح للعنصر بالتقلص والتوسع حسب المساحة */
-    max-width: 350px;     /* يحافظ على الحد الأقصى كما في التصميم الحالي */
-    height: 200px;
+.Features {
+    flex: 1 1 280px;
+    max-width: 320px;
+    min-height: 250px; /* ارتفاع أدنى مناسب للمحتوى */
     text-align: center;
-    padding: 5px;
-    box-shadow: 0px 0px 10px 0px black;
-    border-radius: 10px;
-    margin-bottom: 25px;
+    padding: 30px 25px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    background: white;
+    position: relative;
+    overflow: hidden;
 }
 
-.Features img{
-    width: 50px;
-    height: 50px;
+.Features::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #4CAF50, #2E7D32);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.Features img {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    background-color: black;
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
     padding: 15px;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.2);
 }
 
-.Features p{
-    color: #000;
-    font-family: "Arimo Hebrew Subset Italic";
-    font-size: 17px;
-    font-style: italic;
+.Features p {
+    color: #34495e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 35px;
-    transition: color 0.2s ease;
+    line-height: 1.6;
+    margin: 0;
+    transition: color 0.3s ease;
 }
 
-.Features:hover{
-    transform: translateY(-15px);
-    box-shadow: 1px 1px 10px 1px #06923E;
-    background-color: #06923E;
-    color: #FFF;
+.Features:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(76, 175, 80, 0.15);
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
     cursor: pointer;
+    color: white;
+}
+
+.Features:hover::before {
+    transform: scaleX(1);
 }
 
 .Features:hover img {
-    background-color: #FFF;
-    width: 30px;
-    height: 30px;
+    background: white;
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.3);
 }
 
-.Features:hover p{
-    color: #FFF;
+.Features:hover p {
+    color: white;
+}
+
+/* تأثيرات إضافية للتفاعل */
+.Features:active {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(76, 175, 80, 0.2);
 }
 
 /* Media Queries للشاشات الصغيرة */
+@media (max-width: 1024px) {
+    .Highlights-container {
+        margin: 100px 0;
+        gap: 25px;
+    }
+    
+    .Features {
+        flex: 1 1 250px;
+        max-width: 300px;
+        min-height: 230px;
+        padding: 25px 20px;
+    }
+}
+
 @media (max-width: 768px) {
     .Highlights-container {
-        justify-content: center; /* يبقى في الوسط */
-        gap: 15px;
+        margin: 80px 0;
+        justify-content: center;
+        gap: 20px;
+        padding: 15px;
     }
 
     .Features {
-        flex: 1 1 80%;  /* كل عنصر ياخذ تقريباً 80% من عرض الشاشة */
-        max-width: none; /* إزالة الحد الأقصى لتناسب الشاشات الصغيرة */
-        height: auto;    /* ارتفاع تلقائي لتناسب النصوص */
+        flex: 1 1 100%;
+        max-width: 400px;
+        min-height: 200px;
+        padding: 25px;
     }
 
     .Features img {
-        width: 40px;
-        height: 40px;
-        padding: 10px;
+        width: 55px;
+        height: 55px;
+        padding: 13px;
     }
 
     .Features p {
-        font-size: 16px;
-        line-height: 28px;
+        font-size: 15px;
+        line-height: 1.5;
     }
 }
 
 @media (max-width: 480px) {
+    .Highlights-container {
+        margin: 60px 0;
+        gap: 15px;
+    }
+
     .Features {
-        flex: 1 1 100%;  /* كل عنصر ياخذ كامل عرض الشاشة */
+        flex: 1 1 100%;
+        min-height: 180px;
+        padding: 20px 15px;
+        border-radius: 12px;
     }
 
     .Features img {
-        width: 35px;
-        height: 35px;
-        padding: 8px;
+        width: 50px;
+        height: 50px;
+        padding: 12px;
+        margin-bottom: 15px;
     }
 
     .Features p {
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.4;
+    }
+}
+
+/* تحسينات للشاشات الكبيرة جداً */
+@media (min-width: 1440px) {
+    .Highlights-container {
+        max-width: 1400px;
+        margin: 150px auto;
+    }
+    
+    .Features {
+        flex: 1 1 300px;
+        max-width: 350px;
+        min-height: 280px;
+        padding: 35px 30px;
+    }
+    
+    .Features p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+}
+
+/* تأثيرات للوضع dark mode لو تم تطبيقه */
+@media (prefers-color-scheme: dark) {
+    .Features {
+        background: #2c3e50;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .Features p {
+        color: #ecf0f1;
     }
 }

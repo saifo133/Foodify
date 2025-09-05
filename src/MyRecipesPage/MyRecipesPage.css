@@ -1,0 +1,172 @@
+.my-recipes-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.my-recipes-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.my-recipes-header h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.my-recipes-header p {
+  color: #7f8c8d;
+  font-size: 18px;
+}
+
+.no-recipes {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.no-recipes h2 {
+  font-size: 24px;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+.no-recipes p {
+  margin-bottom: 25px;
+  color: #95a5a6;
+}
+
+.create-link {
+  display: inline-block;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.create-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(46, 125, 50, 0.3);
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.recipe-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin: 0 0 10px;
+  color: #2c3e50;
+  font-size: 20px;
+}
+
+.classification {
+  color: #4CAF50;
+  font-weight: 600;
+  margin: 0 0 15px;
+}
+
+.time-info, .servings {
+  color: #7f8c8d;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.details-btn {
+  background: #3498db;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.details-btn:hover {
+  background: #2980b9;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.create-new-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.create-new-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.create-new-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(46, 125, 50, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .recipes-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .details-btn, .delete-btn {
+    text-align: center;
+  }
+}
