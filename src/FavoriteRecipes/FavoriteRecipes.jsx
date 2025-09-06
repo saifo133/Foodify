@@ -34,7 +34,7 @@ export default function FavoritePage() {
                             <div className='ShowMore-Favorite'>
                                 <Link to={`/recipes/recipesDetails/${item.id}`} className='details-link'>
                                     <button className='btn show-more-icon'>
-                                        <img className='showMoreIcon' src={RecipesIcons.ShowMoreIcon} alt='Show more' />
+                                        Show More
                                     </button>
                                 </Link>
                                 <button 
