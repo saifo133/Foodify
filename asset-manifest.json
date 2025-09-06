@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Foodify/static/css/main.0e3e5207.css",
-    "main.js": "/Foodify/static/js/main.5773c4b2.js",
+    "main.css": "/Foodify/static/css/main.4d83e0fa.css",
+    "main.js": "/Foodify/static/js/main.fdf82d97.js",
     "static/js/453.2a70cdbc.chunk.js": "/Foodify/static/js/453.2a70cdbc.chunk.js",
     "static/media/CheesePlatter.jpg": "/Foodify/static/media/CheesePlatter.00b56d6fe5746a3b4ea7.jpg",
     "static/media/GrilledVeggieMix.jpg": "/Foodify/static/media/GrilledVeggieMix.b406f1f3ffbe01f31369.jpg",
@@ -42,12 +42,12 @@
     "static/media/book-svgrepo-com.svg": "/Foodify/static/media/book-svgrepo-com.146c11196a4d533db07148cfeb0a6ad6.svg",
     "static/media/favorite-filled-svgrepo-com.svg": "/Foodify/static/media/favorite-filled-svgrepo-com.25314656d6d851a861212797d5c5d31e.svg",
     "index.html": "/Foodify/index.html",
-    "main.0e3e5207.css.map": "/Foodify/static/css/main.0e3e5207.css.map",
-    "main.5773c4b2.js.map": "/Foodify/static/js/main.5773c4b2.js.map",
+    "main.4d83e0fa.css.map": "/Foodify/static/css/main.4d83e0fa.css.map",
+    "main.fdf82d97.js.map": "/Foodify/static/js/main.fdf82d97.js.map",
     "453.2a70cdbc.chunk.js.map": "/Foodify/static/js/453.2a70cdbc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e3e5207.css",
-    "static/js/main.5773c4b2.js"
+    "static/css/main.4d83e0fa.css",
+    "static/js/main.fdf82d97.js"
   ]
 }
