@@ -125,15 +125,15 @@ const CreateRecipes = () => {
                 required
               >
                 <option value="">Select classification</option>
-                <option value="Beef">Breakfast</option>
-                <option value="Chicken">Lunch</option>
-                <option value="Fish">Dinner</option>
-                <option value="Seafood">Dessert</option>
-                <option value="PastaRice">Appetizer</option>
-                <option value="Vegetables">Beverage</option>
-                <option value="Fruits">Beverage</option>
-                <option value="Eggs">Beverage</option>
-                <option value="BreadGrains">Beverage</option>
+                <option value="Beef">Beef</option>
+                <option value="Chicken">Chicken</option>
+                <option value="Fish">Fish</option>
+                <option value="Seafood">Seafood</option>
+                <option value="PastaRice">PastaRice</option>
+                <option value="Vegetables">Vegetables</option>
+                <option value="Fruits">Fruits</option>
+                <option value="Eggs">Eggs</option>
+                <option value="BreadGrains">BreadGrains</option>
               </select>
             </div>
 
