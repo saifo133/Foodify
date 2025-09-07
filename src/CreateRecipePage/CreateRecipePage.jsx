@@ -88,7 +88,6 @@ const CreateRecipes = () => {
                 value={recipe.description}
                 onChange={handleChange}
                 rows="3"
-                required
                 placeholder="Enter a brief description of your recipe"
               ></textarea>
             </div>
@@ -126,12 +125,15 @@ const CreateRecipes = () => {
                 required
               >
                 <option value="">Select classification</option>
-                <option value="Breakfast">Breakfast</option>
-                <option value="Lunch">Lunch</option>
-                <option value="Dinner">Dinner</option>
-                <option value="Dessert">Dessert</option>
-                <option value="Appetizer">Appetizer</option>
-                <option value="Beverage">Beverage</option>
+                <option value="Beef">Breakfast</option>
+                <option value="Chicken">Lunch</option>
+                <option value="Fish">Dinner</option>
+                <option value="Seafood">Dessert</option>
+                <option value="PastaRice">Appetizer</option>
+                <option value="Vegetables">Beverage</option>
+                <option value="Fruits">Beverage</option>
+                <option value="Eggs">Beverage</option>
+                <option value="BreadGrains">Beverage</option>
               </select>
             </div>
 
