@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.about-image{
+    height: 496px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-image-text{
+    padding: 108px 151px 105px 150px;
+}
+
+.about-image-text h1{
+    color: #06923E;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-image-text p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.section-about-foodify{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 87px 0 71px 0;
+}
+
+.section-about-foodify-text{
+    margin-left: 33px;
+    width: 711px;
+}
+
+.section-about-foodify-text h2{
+    color: #06923E;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.section-about-foodify-text h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.section-about-foodify-text p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.section-about-foodify-logo{
+    width: 430px;
+    height: 430px;
+    background-color: #06923E;
+    margin-right: 59px;
+}
+
+.section-about-foodify-logo h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 145px 32px;
+}
+
+.section-about-developer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.section-about-developer-image{
+    width: 430px;
+    height: 430px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    margin-left: 35px;
+}
+
+.section-about-developer-text{
+   width: 65%;
+   height: 453px;
+   margin-right: 17px;
+   padding-top: 20px;
+}
+
+.section-about-developer-text h2{
+    color: #06923E;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.section-about-developer-text h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;;
+}
+
+.underline{
+    width: 106px;
+    height: 7px;
+    background-color: #06923E;
+    margin: 15px 0;
+}
+
+.section-about-developer-text p{
+    width: 757px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+@media (max-width: 1024px) {
+    .about-image-text {
+        padding: 80px 50px;
+    }
+
+    .section-about-foodify,
+    .section-about-developer {
+        flex-direction: column;
+    }
+
+    .section-about-foodify-text,
+    .section-about-developer-text {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .section-about-foodify-logo,
+    .section-about-developer-image {
+        margin: 20px auto;
+    }
+}
+
+/* للتابلت والموبايل المتوسط (أقل من 768px) */
+@media (max-width: 768px) {
+    .about-image {
+        height: 350px;
+    }
+
+    .about-image-text h1 {
+        font-size: 32px;
+    }
+
+    .about-image-text p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .section-about-foodify-text h1,
+    .section-about-developer-text h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .section-about-foodify-text p,
+    .section-about-developer-text p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 100%;
+    }
+    .section-about-developer-image {
+        width: 300px;
+        height: 300px;
+    }
+    .section-about-foodify-logo{
+        display: none;
+    }
+}
+
+/* للموبايل الصغير (أقل من 480px) */
+@media (max-width: 480px) {
+
+    .section-about-foodify-logo{
+        display: none;
+    }
+    .about-image-text {
+        padding: 40px 20px;
+    }
+
+    .about-image-text h1 {
+        font-size: 24px;
+    }
+
+    .about-image-text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .section-about-foodify-text h2,
+    .section-about-developer-text h2 {
+        font-size: 18px;
+    }
+
+    .section-about-foodify-text h1,
+    .section-about-developer-text h1 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .section-about-foodify-logo,
+    .section-about-developer-image {
+        width: 220px;
+        height: 220px;
+    }
+
+    .section-about-foodify-logo h1 {
+        font-size: 48px;
+        padding: 60px 10px;
+    }
+
+    .underline {
+        width: 80px;
+        height: 5px;
+    }
+}
