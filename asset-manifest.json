@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/Foodify/static/css/main.6074986e.css",
-    "main.js": "/Foodify/static/js/main.2349e1cc.js",
+    "main.css": "/Foodify/static/css/main.b06fb63b.css",
+    "main.js": "/Foodify/static/js/main.1b95b6ff.js",
     "static/js/453.2a70cdbc.chunk.js": "/Foodify/static/js/453.2a70cdbc.chunk.js",
     "static/media/DeveloperImage.png": "/Foodify/static/media/DeveloperImage.90ebb585d7ed954fe752.png",
     "static/media/CheesePlatter.jpg": "/Foodify/static/media/CheesePlatter.00b56d6fe5746a3b4ea7.jpg",
+    "static/media/ImageThree.jpg": "/Foodify/static/media/ImageThree.cd2d10f7c2675ea38422.jpg",
     "static/media/AboutImageBackground.jpg": "/Foodify/static/media/AboutImageBackground.fc5f0b38e2410cb462a8.jpg",
     "static/media/GrilledVeggieMix.jpg": "/Foodify/static/media/GrilledVeggieMix.b406f1f3ffbe01f31369.jpg",
     "static/media/ShrimpScampi.jpg": "/Foodify/static/media/ShrimpScampi.f80f77c7a435a54bbfd4.jpg",
     "static/media/Breakfast_Background.jpg": "/Foodify/static/media/Breakfast_Background.456803f63a87f3f9f0fe.jpg",
     "static/media/WholeGrainBread.jpg": "/Foodify/static/media/WholeGrainBread.ff66c54849e0ae5bfb9b.jpg",
+    "static/media/UserSix.jpg": "/Foodify/static/media/UserSix.01b6b7453d63f690408f.jpg",
     "static/media/CustomerSayBackground.jpg": "/Foodify/static/media/CustomerSayBackground.2ab21e6c0bad50e54cf7.jpg",
     "static/media/Omelette.jpg": "/Foodify/static/media/Omelette.c7bb20be00b9c09a44a1.jpg",
     "static/media/ChickpeaCurry.jpg": "/Foodify/static/media/ChickpeaCurry.06a1ddcfd5d6421104dd.jpg",
     "static/media/BakedSalmon.jpg": "/Foodify/static/media/BakedSalmon.72bde52cdbd771b1ddd0.jpg",
     "static/media/GrilledSteak.jpg": "/Foodify/static/media/GrilledSteak.81dfb470d46106ad497b.jpg",
     "static/media/SpaghettiCarbonara.jpg": "/Foodify/static/media/SpaghettiCarbonara.38bf38df470a7088e570.jpg",
+    "static/media/UserFour.jpg": "/Foodify/static/media/UserFour.9433df5cd381751cb20b.jpg",
     "static/media/FruitSalad.jpg": "/Foodify/static/media/FruitSalad.dcf865ecd792b65b2e78.jpg",
+    "static/media/ImageFour.jpg": "/Foodify/static/media/ImageFour.ca8f1610b691f65f6169.jpg",
+    "static/media/UserFive.jpg": "/Foodify/static/media/UserFive.36394b1bb2b936c4f421.jpg",
+    "static/media/ImageOne.jpg": "/Foodify/static/media/ImageOne.84212c084f9d3f1e7652.jpg",
+    "static/media/ImageTwo.jpg": "/Foodify/static/media/ImageTwo.10499e6c563482625f05.jpg",
     "static/media/RoastChicken.jpg": "/Foodify/static/media/RoastChicken.ec23a0ff4dffe395780f.jpg",
     "static/media/Avocado_Toast.jpeg": "/Foodify/static/media/Avocado_Toast.6914ca6a521bafe7a3a7.jpeg",
     "static/media/Pancakes.jpeg": "/Foodify/static/media/Pancakes.10b1ce0268b8cac92128.jpeg",
@@ -44,12 +51,12 @@
     "static/media/book-svgrepo-com.svg": "/Foodify/static/media/book-svgrepo-com.146c11196a4d533db07148cfeb0a6ad6.svg",
     "static/media/favorite-filled-svgrepo-com.svg": "/Foodify/static/media/favorite-filled-svgrepo-com.25314656d6d851a861212797d5c5d31e.svg",
     "index.html": "/Foodify/index.html",
-    "main.6074986e.css.map": "/Foodify/static/css/main.6074986e.css.map",
-    "main.2349e1cc.js.map": "/Foodify/static/js/main.2349e1cc.js.map",
+    "main.b06fb63b.css.map": "/Foodify/static/css/main.b06fb63b.css.map",
+    "main.1b95b6ff.js.map": "/Foodify/static/js/main.1b95b6ff.js.map",
     "453.2a70cdbc.chunk.js.map": "/Foodify/static/js/453.2a70cdbc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6074986e.css",
-    "static/js/main.2349e1cc.js"
+    "static/css/main.b06fb63b.css",
+    "static/js/main.1b95b6ff.js"
   ]
 }
