@@ -16,7 +16,7 @@
 .recipes-information{
     width: 589px;
     height: fit-content;
-    margin: 0 30px;
+    margin: 30px;
 }
 
 .recipes-information h1{
@@ -37,7 +37,7 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
-    line-height: 35px;
+    line-height: 48px;
 }
 
 .recipes-information ol li{

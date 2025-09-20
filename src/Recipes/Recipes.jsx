@@ -1,9 +1,9 @@
 import './Recipes.css';
 import {Link} from 'react-router-dom';
-import ImageOne from './Pancakes.jpeg';
-import ImageTwo from './Pancakes.jpeg';
-import ImageThree from './Pancakes.jpeg';
-import ImageFour from './Pancakes.jpeg';
+import ImageOne from './ImageOne.jpg';
+import ImageTwo from './ImageTwo.jpg';
+import ImageThree from './ImageThree.jpg';
+import ImageFour from './ImageFour.jpg';
 /* Recipes Images */
 import { DefaulteRecipesInformation } from '../RecipesData/RecipesData';
 /* Icon */

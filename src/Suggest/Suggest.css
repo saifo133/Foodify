@@ -1,7 +1,7 @@
 .Suggest-container {
     margin-top: 91px;
     padding-top: 30px;
-    min-height: 681px; /* بدل height ثابت لتفادي مشاكل الارتفاع */
+    min-height: 490px; 
     background-color: #06923E;
     color: #FFF;
     text-align: center;
@@ -26,16 +26,17 @@
 
 .suggest-recipes {
     display: flex;
-    flex-wrap: wrap;             /* السماح للعناصر بالانتقال لسطر جديد */
-    justify-content: center;     /* العناصر مركزة أفقياً */
-    gap: 20px;                   /* المسافة بين العناصر */
-    align-items: flex-start;     /* يبدأ كل عنصر من الأعلى */
+    flex-wrap: wrap;             
+    justify-content: center;     
+    gap: 20px;                   
+    align-items: flex-start;  
+    margin-bottom: 53px;   
 }
 
 .recipes {
     width: 352px;
-    max-width: 90%;             /* يسمح بالتصغير على الشاشات الصغيرة */
-    height: auto;               /* ارتفاع تلقائي لتناسب المحتوى */
+    max-width: 90%;             
+    height: auto;              
     text-align: center;
     padding-top: 20px;
 }
@@ -76,6 +77,7 @@
     border: none;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 27px;
 }
 
 .recipes button:hover {

@@ -54,7 +54,7 @@ export default function AboutPage()
                     <p>I’m Saif Abu Matar, a passionate Front-End Developer with a degree in Software Engineering.
                          I enjoy bringing ideas to life through clean code and intuitive user experiences. Foodify
                          is part of my journey to build impactful projects that combine creativity with functionality.
-                           With skills in HTML, CSS, JavaScript, and React, I focus on creating interactive web applications
+                          With skills in HTML, CSS, JavaScript, and React, I focus on creating interactive web applications
                           that are both user-friendly and visually engaging. Beyond this project, I’m constantly learning new technologies
                            and expanding my skills to grow as a Full-Stack Developer.</p>                
                 </div>

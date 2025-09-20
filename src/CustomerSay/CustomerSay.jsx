@@ -3,6 +3,9 @@ import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import userOne from './User_One.jpeg';
 import userTwo from './User_Two.jpeg';
 import userThree from './User_Three.jpeg';
+import userFour from './UserFour.jpg';
+import userFive from './UserFive.jpg';
+import userSix from './UserSix.jpg';
 import CustomerSayBackground from './CustomerSayBackground.jpg';
 
 export default function CustomerSay() {
@@ -21,22 +24,22 @@ export default function CustomerSay() {
     {
       text: "I love how Foodify makes cooking so fun! The variety of recipes keeps my family excited for every meal.",
       name: "Omar Khalid",
-      img: userTwo
+      img: userThree
     },
     {
       text: "I love how Foodify makes cooking so fun! The variety of recipes keeps my family excited for every meal.",
       name: "Omar Khalid",
-      img: userTwo
+      img: userFour
     },
     {
       text: "I love how Foodify makes cooking so fun! The variety of recipes keeps my family excited for every meal.",
       name: "Omar Khalid",
-      img: userTwo
+      img: userFive
     },
     {
       text: "Foodify's recipes are easy to follow and always turn out amazing. Highly recommended!",
       name: "Sara Ahmed",
-      img: userThree
+      img: userSix
     }
   ];
 
